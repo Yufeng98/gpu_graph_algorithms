@@ -4,6 +4,7 @@
 
 #ifndef GPU_GRAPH_ALGORITHMS_MAIN_H
 #define GPU_GRAPH_ALGORITHMS_MAIN_H
+#include "/usr/local/cuda/targets/x86_64-linux/include/cuda_runtime.h"
 #include <iostream>
 #include <algorithm>
 #include <cassert>
@@ -17,7 +18,7 @@
 #include <string.h>
 #include <ctime>
 #include <chrono>
-#include "utilities/utilities.h"
+#include "utilities.h"
 
 using namespace std;
 using namespace std::chrono;

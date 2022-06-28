@@ -1,4 +1,4 @@
-#include "../main.h"
+#include "main.h"
 
 void updateIndexOfEdges(std::vector<int> &V, std::vector<int> &E, int l, int r){
 

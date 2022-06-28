@@ -1,5 +1,5 @@
 #include "bellman.cuh"
-#include "../main.h"
+#include "main.h"
 
 void printCudaDevice(){
     int dev = 0;
